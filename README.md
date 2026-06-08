@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-2.2.2-150458?style=flat&logo=pandas)
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.9.2-11557c?style=flat)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
 
 > An end-to-end automated business reporting pipeline that combines monthly sales files, validates data quality, calculates KPIs, detects profitability risks, and exports stakeholder-ready reports — all from a single notebook run.
 
