@@ -1,4 +1,4 @@
-# 📊 Superstore Revenue & Profit Monitoring System
+# Superstore Revenue & Profit Monitoring System
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-2.2.2-150458?style=flat&logo=pandas)
@@ -11,7 +11,7 @@
 
 ---
 
-## 🔍 Business Problem
+## Business Problem
 
 Sales teams typically receive transaction data in separate monthly files. Manually combining them, checking quality, calculating KPIs, and preparing reports is time-consuming and error-prone.
 
@@ -19,7 +19,7 @@ This project automates that entire workflow and produces consistent, reproducibl
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 Raw XLS File
@@ -42,7 +42,7 @@ Charts + CSV Reports + Business Insights
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 superstore-revenue-profit-monitor/
 │
@@ -77,7 +77,7 @@ superstore-revenue-profit-monitor/
 ```
 ---
 
-## 🚀 Setup & How to Run
+## Setup & How to Run
 
 **1. Clone the repository**
 ```bash
@@ -94,11 +94,11 @@ pip install -r requirements.txt
 
 Open `Superstore_Revenue_Profit_Monitor.ipynb` in Jupyter or VS Code and run all cells top to bottom. All charts and reports are generated automatically.
 
-> ⚙️ All alert thresholds are in the **Configuration** cell at the top of the notebook. Edit them without touching any other code.
+> All alert thresholds are in the **Configuration** cell at the top of the notebook. Edit them without touching any other code.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **[Superstore Dataset](https://www.kaggle.com/datasets/divyjain28/superstore-sales?select=sample_-_superstore.xls)** — a retail sales dataset containing transaction records across US regions, product categories, and customer segments.
 
@@ -112,7 +112,7 @@ Open `Superstore_Revenue_Profit_Monitor.ipynb` in Jupyter or VS Code and run all
 
 ---
 
-## ✅ Data Validation — 6 Checks
+## Data Validation — 6 Checks
 
 Before any KPI is calculated, the pipeline validates data reliability:
 
@@ -127,7 +127,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## 📈 Charts & Visualisations
+## Charts & Visualisations
 
 ### Monthly Sales Trend
 ![Monthly Sales Trend](charts/monthly_sales_trend.png)
@@ -146,7 +146,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## 🚨 Risk Detection — 5 Alert Types
+## Risk Detection — 5 Alert Types
 
 | Alert | Logic | Purpose |
 |---|---|---|
@@ -158,7 +158,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## 📦 Key Outputs
+## Key Outputs
 
 | File | Description |
 |---|---|
@@ -171,7 +171,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## ❓ Business Questions Answered
+## Business Questions Answered
 
 - Which months had the highest and lowest sales and profit?
 - Which products generated losses despite high sales volume?
@@ -181,7 +181,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 - **Python & pandas** — data cleaning, aggregation, feature engineering, groupby operations
 - **Automation** — monthly file simulation, auto-combine, single-run pipeline
@@ -193,7 +193,7 @@ Before any KPI is calculated, the pipeline validates data reliability:
 
 ---
 
-## 📋 Requirements
+## Requirements
 ```
 pandas==2.2.2  
 matplotlib==3.9.2  
