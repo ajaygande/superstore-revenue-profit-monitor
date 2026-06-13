@@ -1,5 +1,5 @@
 # Superstore Revenue & Profit Monitoring System
-
+![Superstore Revenue & Profit Monitoring System](charts/cover.png)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-2.2.2-150458?style=flat&logo=pandas)
 ![matplotlib](https://img.shields.io/badge/matplotlib-3.9.2-11557c?style=flat)
